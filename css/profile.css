@@ -73,6 +73,16 @@ body {
 font-size: 20px;
 }
 
+.pendidikan{
+  margin-top: 3%;
+  margin-left: 3%
+  
+}
+
+.pendidikan h2{
+  font-size: 30px;
+}
+
 .vision-mission{
   margin-top: 3%;
   margin-left: 3%;
@@ -152,7 +162,17 @@ footer{
   .name p{
     font-size: 14px;
   }
-
+  
+  .pendidikan{
+    margin-top: 3%;
+    margin-left: 3%
+    
+  }
+  
+  .pendidikan h2{
+    font-size: 30px;
+  }
+  
   .vision-mission{
     margin-top: 10%;
     margin-left: 3%;

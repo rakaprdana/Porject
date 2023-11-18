@@ -98,7 +98,14 @@ nav li:hover::after{
     text-align: justify;  
   }
 
-  
+  .activitys{
+    font-family:'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .activitys h2{
+    font-size: 30px;
+  }
   #contact {
     background-color: #f9f9f9;
     padding: 40px;
