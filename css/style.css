@@ -87,9 +87,9 @@ nav li:hover::after{
     box-shadow: 0 16px 8px -9px rgba(191, 191, 191);
   }
   .gambar {
-    width: 90%;
+    width: 100%;
     height: auto;
-    
+    padding-bottom: 5%;
   }
    
   .about {

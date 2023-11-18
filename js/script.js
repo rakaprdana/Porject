@@ -10,7 +10,6 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     }
 });
 
-
 function tampilkanTerimaKasih() {
     var inputName = document.getElementById("name").value;
     var inputMessage = document.getElementById("message").value;
