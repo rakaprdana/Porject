@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+text-decoration: none;
+}
+
+
+body {
+    font-family:'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    display: block;
+    color: #576CBC;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+
+nav li {
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-left: 3%;
+  padding: 10px;
+}
+nav li::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 5px;
+  top: 70%;
+  left: 0;
+  transition: 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+  background-color: blueviolet;
+}
+
+nav li:hover{
+  color: #ffff;
+}
+
+nav li:hover::after{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+  
+.nav-bar ul li a ::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    top: 70%;
+    left: 0;
+    transition: 0.5s;
+    display: block;
+    content: "";
+    border-bottom: 2px solid #a5d7e8;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-bar ul li a:hover::after{
+    transform: scaleX(1);
+}
+  
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flexbox;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+    box-shadow: 0 16px 8px -9px rgba(191, 191, 191);
+  }
+  .gambar {
+    width: 90%;
+    height: auto;
+    
+  }
+   
+  .about {
+    margin-top: 3%;
+    margin-left: 2%;
+    text-align: justify;  
+  }
+
+  
+  #contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column ;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  #form-output {
+    margin-top: 20px;
+  }
