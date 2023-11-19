@@ -90,6 +90,7 @@ nav li:hover::after{
     width: 100%;
     height: auto;
     padding-bottom: 5%;
+    margin-top: 3%;
   }
    
   .about {
@@ -105,6 +106,12 @@ nav li:hover::after{
   }
   .activitys h2{
     font-size: 30px;
+    margin-left: 2%;
+  }
+
+  .activitys li{
+    margin-left: 2%;
+    text-align: justify;
   }
   #contact {
     background-color: #f9f9f9;
@@ -126,3 +133,30 @@ nav li:hover::after{
   #form-output {
     margin-top: 20px;
   }
+
+  
+@media screen and (max-width: 680px){
+  .gambar{
+    width: 40%;
+    margin-bottom: 30%;
+    margin-left: 10%;
+  }
+  .about{
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+
+  .activitys{
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+
+  .activitys h2{
+    font-size: 30px;
+  }
+
+  .activitys li{
+    font-size: 20px;
+    margin-top: 3%;
+  }
+}
